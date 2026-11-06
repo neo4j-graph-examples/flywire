@@ -14,9 +14,10 @@ The paper used this connectome to study how the fly brain is organized at a netw
 
 ## Load
 
-**From a dump** (fastest) — load the pre-built dump directly in Neo4j Desktop, or via the CLI:
+**From a dump** (fastest) — download the pre-built dump from S3 and load it directly in Neo4j Desktop, or via the CLI:
 
 ```bash
+aws s3 cp s3://gds-public-dataset/flywire_graph.dump .
 neo4j-admin database load neo4j --from-path=.
 ```
 
