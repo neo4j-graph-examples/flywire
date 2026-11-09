@@ -28,3 +28,7 @@ git clone https://github.com/murthylab/flywire-network-analysis
 cp .env.example .env          # fill in NEO4J_URI, credentials, database
 python3 download_graph.py
 ```
+
+## License
+
+Data license follows that of [murthylab/flywire-network-analysis](https://github.com/murthylab/flywire-network-analysis).
