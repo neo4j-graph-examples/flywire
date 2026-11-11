@@ -2,9 +2,8 @@
 
 The complete wiring diagram of an adult *Drosophila* brain, from Lin et al., [Nature 2024](https://www.nature.com/articles/s41586-024-07558-y). 127,978 neurons, 2,613,129 directed synaptic connections.
 
-|                        |                       |
-| ---------------------- | --------------------- |
-| ![](images/schema.png) | ![](images/graph.png) |
+![](images/graph.png)
+![](images/schema.png)
 
 ## Graph
 
